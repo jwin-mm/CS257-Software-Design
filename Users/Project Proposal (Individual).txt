@@ -1,0 +1,41 @@
+﻿User role: Player 
+
+
+User Story 1
+
+
+As a rookie player with developing talents, I want to be able to find a team with a good success rate and pays well so that I can raise my trade value. 
+
+
+Acceptance Criteria: Find a team with a win-rate at or above 0.5 and total payroll of at least $100 million. 
+
+
+Acceptance Test 
+* Pass: Have two filters for win-rate and total payroll and set win-rate filter to 0.5 and above and payroll filter to $100 million and above. 
+* Fail: Only display teams with a win-rate of 0.5. 
+
+
+User Story 2
+As an established star player, I want to find a team that can pay well regardless of their success rate so that I can get a good payroll. 
+
+
+Acceptance Criteria: Find a team whose payroll is more than $200 million. 
+
+
+Acceptance Test
+* Pass: Display teams whose payrolls are more than $200 million last year 
+* Fail: Display teams whose payrolls are negative numbers.  
+
+
+
+
+User Story 3
+As a player, I want to find a team with a rising success rate so that I can find a good team and ride the success story. 
+
+
+Acceptance Criteria: Find a team with rising win-rates for the past 5 years 
+
+
+Acceptance Test 
+* Pass: For each team, sort by year from most recent to oldest and filter teams with a rising win-rate trend 
+* Fail: Sort teams by highest to lowest payroll for the past 5 years
