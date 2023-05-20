@@ -1,0 +1,113 @@
+body {
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: whitesmoke;
+}
+
+h1 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: green;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+}
+
+h1, h2 {
+   font-family: Verdana, Geneva, sans-serif; 
+}
+
+p {
+    font-family: Verdana, Geneva, sans-serif;
+    line-height: 1.4;
+}
+
+figure {
+    float: left;
+    margin-right: 30px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+img {
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+div {
+    clear: left;
+    padding-bottom: 10px;
+}
+
+ul {
+    width: 65%;
+}
+
+li {
+    font-family: Verdana, Geneva, sans-serif;
+    line-height: 1.4;
+}
+
+div.content {
+    width: 65%;
+}
+
+div.highlight {
+    background-color: azure;
+    width: 300px;
+    border: 2px solid blue;
+    border-radius: 8px;
+    float: right;
+    padding: 10px;
+    margin: 10px;
+}
+
+nav {
+    position: sticky;
+    top: 0px
+}
+
+/* The nav bar is an unordered list whose items are not bulleted. 
+     We only want to apply this styling to unordered lists inside of the nav
+     tag.
+*/
+nav ul {
+    border: 2px solid blue;
+    border-radius: 8px;
+    list-style-type: none;
+    overflow: hidden;
+    width: 96%;
+}
+
+/* Navigation bar list items should render starting at the left margin. */
+nav li {
+    float: left;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+/* Navigation bar items should link to elements on the page, or to other pages.
+     This is the "a" tag. So this says "apply this style to links within the nav bar".
+*/
+nav li a {
+    display: block;
+    color: blue;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+/* When you mouse over something in the nav bar, turn it blue. */
+nav li a:hover {
+    color: white;
+    background-color: blue;
+}
+
+
+img {
+    float: left;
+    border: 2px solid black;
+    margin-right: 30px;
+}
